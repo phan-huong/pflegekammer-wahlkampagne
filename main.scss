@@ -1,0 +1,69 @@
+@use 'abstracts' as a;
+@use 'base' as b;
+
+
+@import "base/sanitize";
+@import "base/typography";
+
+:root {
+    font-size: $fontSizeBase;
+    font-weight: b.$normal-weight;
+}
+
+html {
+    @include font;
+    color: a.$pflegeKDarkGrey;
+    font-size: 100%;
+}
+  
+body {
+    padding-top: a.$spacing-xl;
+    max-width: 100vw;
+}
+
+
+// *----- Components -----* //
+
+@import "components/nav";
+@import "components/footer";
+@import "components/hero";
+@import "components/threeboxes";
+@import "components/mainTitle";
+@import "components/button-circle";
+@import "components/banner";
+@import "components/table";
+@import "components/picture-left";
+@import "components/main-button";
+@import "components/banner-color";
+@import "components/title-left";
+@import "components/highlighted";
+@import "components/two-columns";
+@import "components/info-box";
+@import "components/pic-backgC";
+@import "components/gallery";
+@import "components/infoBig";
+@import "components/filterPicsS";
+@import "components/filterPicsM";
+@import "components/filterIcons";
+@import "components/whiteRows";
+@import "components/downloadsNav";
+@import "components/filterDownloads";
+@import "components/accordion";
+@import "components/calendar";
+@import "components/filter-aktuelles";
+@import "components/pages";
+@import "components/article";
+@import "components/bigColumn";
+@import "components/threeColumns";
+@import "components/contactForm";
+@import "components/galleryCentered";
+@import "components/titleS";
+@import "components/filterPresse";
+@import "components/infoPurple";
+@import "components/filterPresseContact";
+@import "components/pictureRightS";
+@import "components/questionAnswer";
+@import "components/menu";
+@import "components/carousel";
+@import "components/illustrationText";
+@import "components/backPurple";
