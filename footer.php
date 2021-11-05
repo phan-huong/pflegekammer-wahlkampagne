@@ -34,6 +34,7 @@
         </div>
 
         <script src=<?php echo bloginfo('template_url').'/js/accordion.js' ?>></script>
+        <script src=<?php echo bloginfo('template_url').'/js/tabs.js' ?>></script>
         <!-- <script src=<?php //echo bloginfo('template_url').'/js/footer.js' ?>></script>
         <script src=<?php //echo bloginfo('template_url').'/js/menu.js' ?>></script>
         <script src=<?php //echo bloginfo('template_url').'/js/carousel.js' ?>></script> -->
